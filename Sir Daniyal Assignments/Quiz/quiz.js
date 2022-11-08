@@ -1,5 +1,6 @@
-let arr = []
-let rightarr = ['true','true','false','true','true','true','false','true','true','true']
+
+let arr = [] // empty array to store answers
+let rightarr = ['2','1','1','2','4','3','1','2','2','2'] 
 let score=0;
 function result(){
     for(i in rightarr)
@@ -18,7 +19,7 @@ function result(){
 }
     for(i in rightarr)
     {
-        if(arr[i]=='true')
+        if(arr[i]==rightarr[i])
         score = ++score;
     }
 
