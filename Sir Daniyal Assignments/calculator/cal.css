@@ -1,0 +1,44 @@
+body{
+    background-color: slategrey;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin: 20px auto;
+    border: 2px solid black;
+    text-align: center;
+    width: 343px;
+    background-color: darkgrey;
+}
+.display{
+    background-color: white;
+    color: black;
+    height: 75px;
+    width: 240px;
+    margin-top: 18px;
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    margin-left: 89px;
+    text-align: right;
+    overflow: hidden;    
+}
+
+#clear{
+    display: inline;
+    float: left;
+    margin-bottom: 3px;
+    background-color: rgb(225, 125, 125);
+}
+.button{
+    height: 80px;
+    width: 80px;
+    font-size: 2.5rem;
+    transition: 0.5s black;
+    margin:auto;
+}
+#equal{
+    background-color: lightblue;
+}

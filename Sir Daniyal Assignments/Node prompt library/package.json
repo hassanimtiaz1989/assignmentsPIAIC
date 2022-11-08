@@ -1,0 +1,14 @@
+{
+  "name": "nodeprompt",
+  "version": "1.0.0",
+  "description": "for the node sync library",
+  "main": "yes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hassan",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
